@@ -17,7 +17,7 @@ Traffic-Flow-Analysis/
 │── models/ # YOLO weights (ignored in git)
 
 │     └── yolov8n.pt
-│
+
 │── outputs/ # auto-generated results (ignored in git)
 
 │     ├── processed_video.mp4
