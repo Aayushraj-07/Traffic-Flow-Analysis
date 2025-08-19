@@ -12,35 +12,35 @@ Traffic-Flow-Analysis/
 
 │── data/ # raw videos (ignored in git)
 
-| └── traffic_video.mp4
+|     └── traffic_video.mp4
 
 │── models/ # YOLO weights (ignored in git)
 
-│ └── yolov8n.pt
+│     └── yolov8n.pt
 │
 │── outputs/ # auto-generated results (ignored in git)
 
-│ ├── processed_video.mp4
-| 
-│ └── results.csv
+│     ├── processed_video.mp4
+ 
+│     └── results.csv
 
 │── src/ # source code
  
-│ ├── main.py
+│     ├── main.py
 
-│ ├── detector.py
+│     ├── detector.py
 
-│ ├── tracker.py
-| |
-│ ├── lane_counter.py
+│     ├── tracker.py
+ 
+│     ├── lane_counter.py
 
-│ ├── video_processor.py
+│     ├── video_processor.py
 
-│ ├── utils.py
+│     ├── utils.py
 
-│ └── sort/
+│     └── sort/
 
-│ └── sort.py
+│          └── sort.py
 
 │── requirements.txt # Python dependencies
 
