@@ -9,43 +9,43 @@ This project detects, tracks, and counts vehicles across lanes in traffic videos
 # Project Structure
 
 Traffic-Flow-Analysis/
-|
+
 │── data/ # raw videos (ignored in git)
-|
+
 | └── traffic_video.mp4
-│
+
 │── models/ # YOLO weights (ignored in git)
-|
+
 │ └── yolov8n.pt
 │
 │── outputs/ # auto-generated results (ignored in git)
-|
+
 │ ├── processed_video.mp4
-| |
+| 
 │ └── results.csv
-│
+
 │── src/ # source code
-| |
+ 
 │ ├── main.py
-| |
+
 │ ├── detector.py
-| |
+
 │ ├── tracker.py
 | |
 │ ├── lane_counter.py
-| |
+
 │ ├── video_processor.py
-| |
+
 │ ├── utils.py
-| |
+
 │ └── sort/
-| |
+
 │ └── sort.py
-│
+
 │── requirements.txt # Python dependencies
-|
+
 │── README.md # Project documentation
-|
+
 │── .gitignore
 
 # Setup Instructions
