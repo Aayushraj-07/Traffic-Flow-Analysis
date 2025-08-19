@@ -1,0 +1,10 @@
+opencv-python
+torch
+torchvision
+ultralytics      # for YOLOv8 (vehicle detection)
+filterpy         # required by SORT/DeepSORT
+scipy
+numpy
+pandas
+matplotlib
+tqdm             # for progress bars

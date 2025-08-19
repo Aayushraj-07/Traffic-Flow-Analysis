@@ -1,0 +1,29 @@
+data/
+models/*.pt
+
+# Python basics
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*$py.class
+
+# Virtual environment
+venv/
+.venv/
+
+# Data (raw / downloaded traffic videos)
+data/*.mp4
+
+# Model weights (large YOLO files)
+models/*.pt
+models/*.onnx
+
+# Generated outputs (processed video + results CSV)
+outputs/*.mp4
+outputs/*.csv
+
+
+
+
+
